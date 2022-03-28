@@ -11,7 +11,7 @@ import java.util.Vector;
 import java.util.Date;
 import java.io.*;
 import java.net.*;
-import java.lang.System.*;
+// import java.lang.System.*;
 
 /**
  * This program uses sFTP to transfer file's
@@ -37,7 +37,7 @@ public class securetransfer {
 
         String logmessage;
         Date dateStarted = new Date();
-        long timeStarted = dateStarted.getTime();
+        // long timeStarted = dateStarted.getTime();
 
         // if(!checkServer(hostName, port)){
         // logmessage = "Server" + hostName + ":" + port + "not found";
@@ -225,7 +225,7 @@ public class securetransfer {
 
     public static void log2txt(String logmessage) {
 
-        List<String> aList = new ArrayList<String>();
+        // List<String> aList = new ArrayList<String>();
 
         // for (int i = 0; i < inparms.length; i++) {
         // aList.add(inparms[i]);
